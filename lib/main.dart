@@ -5,7 +5,10 @@ import 'gradient_container.dart';
 void main() {
   runApp(MaterialApp(
     home: Scaffold(
-      body: GradientContainer(),
+      body: GradientContainer(
+        Color.fromARGB(255, 26, 2, 80),
+        Color.fromARGB(255, 40, 2, 94),
+      ),
     ),
   ));
 }
